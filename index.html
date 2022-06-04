@@ -8,54 +8,71 @@
     <title>Sign Up Page</title>
   </head>
   <body>
-    <!-- div for the whole thing or use body tag -->
-    <aside>
-      <img src="" alt="" />
-      <div><img src="" alt="" /></div>
-    </aside>
+    <div class="content-container">
+      <aside>
+        <img src="images/plant.jpg.jpg" alt="" class="background-img" />
+        <div class="img-container">
+          <img src="images/odin-lined.png" alt="" class="odin-img" />
+          <span class="img-text">ODIN</span>
+        </div>
+      </aside>
 
-    <main>
-      <header>
-        <p>
-          This is not a real online service! You know you need something like
-          this in your life to help you realize your deepest dreams. Sign up now
-          to get started.
-        </p>
-        <div>You know you want to.</div>
-      </header>
+      <main class="main-container">
+        <header class="header-container">
+          <p class="header-text">
+            This is not a real online service! You know you need something like
+            this in your life to help you realize your deepest dreams. Sign up
+            now to get started.
+          </p>
+          <span class="header-text">You know you want to.</span>
+        </header>
 
-      <section>
-        <div>Lets do this!</div>
-        <!-- maybe div on each input to use a grid if flex doesnt work -->
-        <form action="">
-          <div>
-            <label for="">FIRST NAME</label>
-            <input type="text" name="" id="" />
+        <section class="form-content-container">
+          <span class="section-heading">Lets do this!</span>
+          <form action="" class="form-container">
+            <div class="right-inputs">
+              <div class="first-name">
+                <label for="">FIRST NAME</label>
+                <input type="text" name="" id="" />
+              </div>
 
-            <label for="">EMAIL</label>
-            <input type="text" name="" id="" />
+              <div class="email">
+                <label for="">EMAIL</label>
+                <input type="text" name="" id="" />
+              </div>
 
-            <label for="">PASSWORD</label>
-            <input type="text" name="" id="" />
-          </div>
+              <div class="password">
+                <label for="">PASSWORD</label>
+                <input type="text" name="" id="" />
+              </div>
+            </div>
 
-          <div>
-            <label for="">LAST NAME</label>
-            <input type="text" name="" id="" />
+            <div class="left-inputs">
+              <div class="last-name">
+                <label for="">LAST NAME</label>
+                <input type="text" name="" id="" />
+              </div>
 
-            <label for="">PHONE NUMBER</label>
-            <input type="text" name="" id="" />
+              <div class="phone-number">
+                <label for="">PHONE NUMBER</label>
+                <input type="text" name="" id="" />
+              </div>
 
-            <label for="">CONFIRM PASSWORD</label>
-            <input type="text" name="" id="" />
-          </div>
-        </form>
-      </section>
+              <div class="confirm-password">
+                <label for="">CONFIRM PASSWORD</label>
+                <input type="text" name="" id="" />
+              </div>
+            </div>
+          </form>
+        </section>
 
-      <footer>
-        <button>Create Account</button>
-        <div>Already have an account? <a href="">Log In</a></div>
-      </footer>
-    </main>
+        <footer class="footer-container">
+          <button class="btn">Create Account</button>
+          <span class="footer-text"
+            >Already have an account? <a href="">Log In</a>
+          </span>
+        </footer>
+      </main>
+    </div>
   </body>
 </html>
